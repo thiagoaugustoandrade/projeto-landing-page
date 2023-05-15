@@ -87,12 +87,62 @@ SEGUNDA PARTE - MENU-OPERACIONAL
 
 /*-------------------------------------------------------------------------*/
 
+/* MAIN */
 
+#carrossel{
+    margin-bottom: 50px;
+    width: 1263px;
+    height: 400px;
+    left: 0px;
+    top: 1190px;
+    background: #247BA0;
+}
+
+#titulo-carrossel{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    padding-top: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+#div-cards{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.card{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#seta-direita{
+    margin-top: 238%;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+.seta{
+    left: 37.57%;
+    right: 34.99%;
+    top: 26.73%;
+    bottom: 26.74%;
+
+    
+}
 
 
 
 footer{
-    background-color: #0C70F1;
+    background-color: #247BA0;
     color: aliceblue;
     text-align: center;
     padding: 5px;
