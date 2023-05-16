@@ -80,8 +80,6 @@ SEGUNDA PARTE - MENU-OPERACIONAL
 }
 
 #textovideo{
-    
-
     font-size: 1em;
 }
 
@@ -90,10 +88,10 @@ SEGUNDA PARTE - MENU-OPERACIONAL
 /* MAIN */
 
 #carrossel{
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     width: 1263px;
     height: 400px;
-    left: 0px;
+    left: 50px;
     top: 1190px;
     background: #247BA0;
 }
@@ -119,10 +117,13 @@ SEGUNDA PARTE - MENU-OPERACIONAL
 }
 
 #seta-direita{
-    margin-top: 238%;
+    margin-top: 116px;
+    margin-left: 32px;
 }
 
 #seta-esquerda{
+    margin-top: 116px;
+    margin-left: 32px;
     display: none;
 }
 
@@ -135,9 +136,54 @@ SEGUNDA PARTE - MENU-OPERACIONAL
     right: 34.99%;
     top: 26.73%;
     bottom: 26.74%;
-
-    
+    cursor: pointer;
 }
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    font-size: 20px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    margin: 15px;
+    padding-left: 10px;
+    background-color: #EAECE5;
+}
+button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 10px ;
+    background-color: #247BA0;
+    color: #EAECE5;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #34a7d8;
+    transform: translateY(-7px);
+    transition-duration: 1s;
+    box-shadow: 0px 15px 15px #1035477c;
+}
+
+
 
 
 

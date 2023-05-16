@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="icones/imagem.svg" type="image/x-icon">
 
 </head>
 <body>
@@ -56,13 +57,27 @@
         <div id="carrossel">
             <h1 id="titulo-carrossel">Mais de 500 alunos já iniciaram seus estudos</h1>
             <div id="div-cards">
-                <img id="seta-esquerda" class="seta" src="icones/seta-esquerda.svg" alt="seta">
+                <img id="seta-esquerda" onclick="rolaresquerda()" class="seta" src="icones/seta-esquerda.svg" alt="seta">
                 <img id="leonardo" class="card" src="alunos/leo.svg" alt="aluno1">
-                <img id="bruna" class="card" src="alunos/bru.svg" alt="aluno2">
                 <img id="samanta" class="card" src="alunos/sam.svg" alt="aluno3">
-                <img id="seta-direita" class="seta" src="icones/seta-direita.svg" alt="seta">
+                <img id="bruna" class="card" src="alunos/bru.svg" alt="aluno2">
+                <img id="seta-direita" onclick="rolardireita()" class="seta" src="icones/seta-direita.svg" alt="seta">
             </div>
         </div>
+    </div>
+    <!--FORMULÁRIO-->
+    <div id="formulario">
+        <h1 id="titulo-formulario">Comece agora mesmo e dê o próximo passo da sua carreira!</h1>
+        <form action="https://api.sheetmonkey.io/form/cnH56tXeWCcUmKbnGZk2vJ" method="post">
+            <input type="text" placeholder="Nome Completo" name="Name" required> <br>
+            <input type="email" placeholder="Seu Melhor Email" name="Email" required > <br>
+            <input type="number" placeholder="Seu Whatsapp" name="Phone" required> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Acesse a ementa grátis</button>
+            
+        </form>
+       
+
     </div>
 
 
